@@ -139,7 +139,28 @@ padding-top: 35px;
 	background-image: url(../img/bg-schedule.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	text-align: center;
 	
+}
+#schedule h1{
+	color: #000000;
+	font-weight: 700;
+	padding-top: 80px;
+}
+#schedule .btn-light{
+	align-content: center;
+	background-color: #ff4514;
+	width: 100%;
+	color: #FFFFFF;
+	margin-top: 10px;
+	border-radius: 50px;
+	margin-left: 20px;
+	
+
+}
+#schedule .btn-light p{
+	font-size: 12px;
+	padding-top: 10px;
 }
 #register{
 	text-align: center;
@@ -150,11 +171,26 @@ padding-top: 35px;
 	background-size: cover;
 	color: #fff;
 	}
-#register btn-dark{
-	width:150px;
-	text-align: center;
-	
-	
+#register .btn{
+	align-items: center;
+	width: 250px;
+	margin-left: 170px;
+}
+#schedule btn-dark{
+text-align: center;
+color:#FFFFFF !important;
+padding-left: 25px;
+padding-right: 25px;
+background-color: #FF8308
+}
+#schedule .clearfix .btn{
+margin-bottom: 60px;
+margin-top:50px;
+background-color: #C3C3C3;
+color: #FFFFFF;
+width: auto;
+font-size: 30px;
+margin-left: 60px;
 }
 footer{
 	background-color: #191919;
